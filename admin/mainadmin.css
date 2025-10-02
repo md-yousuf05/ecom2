@@ -1,0 +1,107 @@
+body{
+    background:linear-gradient(120deg,#19183B,#19183B, #708993,#A1C2BD,#19183B,#19183B);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    font-family: 'calibri';
+    color: white;
+}
+.editproduct{
+    display: grid;
+    border: 5px solid #A1C2BD;
+    border-radius: 10px;
+    grid-template-columns: 65% auto;
+    background:   #19183B ;
+    width: 100%;
+    height: 80vh;
+    gap: 20px;
+}
+.producthistory{
+    width: 100%;
+    color: antiquewhite;
+    font-size: larger;
+}
+#prodhis{
+    overflow: auto;
+    height: 100%;
+    text-align: center;
+}
+#prodhis h1{
+    position: sticky;
+    background-color: #19183B ;
+    top: 0;
+    color: antiquewhite;
+    z-index: 1;
+}
+
+.addproduct{
+    text-align: center;
+    color: antiquewhite;
+    background:#708993;
+
+}
+form{
+    width: 80%;
+    margin: auto;
+    /* border: 3px solid red; */
+    /* justify-content: center; */
+}
+form input{
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    margin: 5px;
+    font-size: larger;
+    /* margin: auto; */
+    border-radius: 30px;
+}
+button{
+        margin-top: 7%;
+        padding: 10px;
+        font-size: medium;
+        border-radius: 30px;
+        text-align: center;
+        color: white;
+        background: #19183B;
+        border: none;
+        box-shadow: 5px 5px black   ;
+        margin-left: 30px;
+        transition: all 0.3s;
+}
+button:active{
+    transform: translate(5px,5px);
+    box-shadow: 0px 0px black;
+}
+.logbut{
+        margin-top: 0;
+        width: 120px;
+        padding: 10px;
+        font-size: medium;
+        border-radius: 10px;
+        text-align: center;
+         color: white;
+        background: #19183B;
+        border: none;
+        box-shadow: 5px 5px black   ;
+        transition: all 0.3s;
+}
+.logbut:active{
+    transform: translate(5px,5px);
+    box-shadow: 0px 0px black;
+}
+.tab-but{
+        margin-top: 0;
+        margin: 5px;
+        padding: 6px;
+        font-size: smaller;
+        border-radius: 5px;
+        text-align: center;
+         color: white;
+        background: #708993;
+        border: none;
+        box-shadow: none;
+        transition: all 0.3s;
+    }
+    .tab-but:active{
+        transform: scale(0.8);
+        border-radius: 10px;
+}  
